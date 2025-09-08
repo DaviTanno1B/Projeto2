@@ -1,89 +1,71 @@
-/* Estilos básicos */
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    color: darkslategray;
+    background: teal;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
-    background-color: #1a8917;
+    border-bottom: solid 2px rgb(160, 163, 186);
     padding: 20px;
-    text-align: center;
-}
+    font-size: 32px color: rgb(160, 163, 186);
 
-header .logo-container {
+    .logo-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 15px; 2px;
 }
 
-header .logo {
-    height: 50px;
-    margin-right: 10px;
+.logo {
+    height: 90px; 10px;
+    width: auto;
 }
-
-h1, h2, h3 {
-    font-family: 'DynaPuff', cursive;
-    color: #1a8917;
-}
-
-.nome-site {
-    font-size: 2em;
-    margin-left: 10px;
 }
 
 .chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: #d9f7e1;
+    justify-content: center;
 }
 
 .chamada-texto {
-    max-width: 50%;
+    margin-right: 5%;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 20px;
+} 
 
 .categoria-videos {
     display: flex;
+    overflow-x: auto;
     gap: 10px;
-    justify-content: center;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
 .categoria-videos img {
-    width: 200px;
-    border-radius: 10px;
+    opacity: 0.5;
+    height: 200px;
 }
 
-.categoria-imagens {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
 }
 
-.categoria-imagens img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.informacoes, .detalhes, .vantages-desvantages {
-    margin: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.vantages, .desvantages {
-    margin-top: 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: #1a8917;
-    color: white;
-    padding: 10px;
+.categoria h2 {
+    color: rgb(160, 163, 186);
 }
