@@ -43,3 +43,12 @@ body {
     max-width: 300px;
     height: auto;
 }
+
+.video {
+    margin-top: 25px;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
